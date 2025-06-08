@@ -37,7 +37,7 @@ const Navbar = () => {
         {link: "About", path:"about"},
         {link: "Product", path:"product"},
         {link: "Testimonial", path:"testimonial"},
-        {link: "FAQ", path:"FAQ"}
+        {link: "FAQ", path:"faq"}
     ];
 
     return (
@@ -53,7 +53,7 @@ const Navbar = () => {
                     <ul className='md:flex space-x-12 hidden'>
                         {
                             navItems.map(({link, path}) => <Link to={path} spy={true} smooth={true}  
-                            key={path} className='block text-base text-gray900 hover:text-brandPrimary 
+                            key={path} className='block cursor-pointer text-base text-gray900 hover:text-brandPrimary 
                             first:font-medium'>{link}</Link>)
                         }
                     </ul>
