@@ -38,7 +38,7 @@ const Products = () => {
                             <img src="/src/assets/company4.png" alt="" className='cursor-pointer' />
                             <img src="/src/assets/company5.png" alt="" className='cursor-pointer' />
                             <img src="/src/assets/company6.png" alt="" className='cursor-pointer' />
-                            <div>
+                            <div className='flex items-center gap-8'>
                                 <a href="" className='text-brandPrimary font-bold hover:text-neutral-700'>Meet all customers{" "}
                                     <svg 
                                         width="17" 
